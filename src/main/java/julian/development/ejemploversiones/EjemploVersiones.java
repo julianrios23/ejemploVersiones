@@ -1,16 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-//MUY BIEN JULIAN!!!
 package julian.development.ejemploversiones;
+
+import entidades.Clientes;
 
 /**
  *
- * @author Lenovo
+ * @author Julian Development
  */
 public class EjemploVersiones {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Clientes c1 = new Clientes("Juan Perez", 40, "Av San Martin 1514", "Argenina");
+
+        System.out.println("El cliente "+c1.getName()+" tiene domicilio e: "+c1.getAddress()
+        +" de "+c1.getCountry());
     }
 }
