@@ -9,54 +9,39 @@ public class Clientes {
     private String name;
     private int age;
     private String address;
-    private String country;
+    private String city;
 
     public Clientes() {
     }
 
-    public Clientes(String name, int age, String address, String country) {
+    public Clientes(String name, int age, String address, String city) {
         this.name = name;
         this.age = age;
         this.address = address;
-        this.country = country;
+        this.city = city;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getAge() {
         return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     public String getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
+    public String getCity() {
+        return city;
     }
 
     @Override
     public String toString() {
-        return "Clientes{" + "name=" + name + ", age=" + age + ", address=" + address + ", country=" + country + '}';
+        return "Clientes{" + "name=" + name + ", age=" + age + ", address=" + address + ", city=" + city + '}';
     }
+
     
     
     
